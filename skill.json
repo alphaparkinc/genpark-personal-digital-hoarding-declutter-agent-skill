@@ -1,0 +1,33 @@
+{
+  "name": "genpark-personal-digital-hoarding-declutter-agent-skill",
+  "version": "1.0.0",
+  "description": "Personal digital asset decluttering agent classifying orphaned downloads, duplicate screenshots, and stale browser bookmarks.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "personal-agent",
+    "declutter",
+    "digital-minimalism",
+    "productivity",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "analyze_file_batch",
+      "description": "Categorize files into archive, delete, or keep tiers based on age and access frequency."
+    },
+    {
+      "name": "detect_duplicate_files",
+      "description": "Identify identical or near-duplicate files via content hash and name heuristics."
+    },
+    {
+      "name": "calculate_revisit_probability",
+      "description": "Score mathematical probability that an orphaned file will ever be reopened."
+    },
+    {
+      "name": "run_benchmark_digital_declutter",
+      "description": "Run digital decluttering benchmark."
+    }
+  ]
+}
